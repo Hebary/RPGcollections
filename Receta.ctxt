@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Receta
+comment1.params=nombre
+comment1.target=Receta(java.lang.String)
+comment1.text=\r\n\ El\ constructor\ debe\ inicializar\ el\ objeto\ con\ un\ nombre\r\n\ a\ eleccion\ y\ estado\ "ok"\ en\ falso.\r\n\ \r\n\ No\ olvidar\ construir\ el\ conjunto\ (TreeSet)\ de\ ingredientes\ \r\n\ \r\n\ @param\ nombre\ El\ nombre\ de\ la\ receta.\r\n
+comment2.params=ingrediente
+comment2.target=void\ addIngrediente(java.lang.String)
+comment2.text=\r\n\ Agrega\ un\ nuevo\ ingrediente\ a\ la\ receta.\r\n\ \r\n\ Solo\ se\ aceptaran\ nuevos\ ingredientes\ cuando\ la\r\n\ receta\ se\ encuentre\ sin\ terminar\ ("cerrada"\ en\ falso).\r\n\ \r\n\ @param\ ingrediente\ El\ ingrediente\ a\ agregar.\r\n
+comment3.params=
+comment3.target=int\ getCantidadIngredientes()
+comment3.text=\r\n\ Devuelve\ la\ cantidad\ de\ ingredientes\ de\ la\ receta.\r\n\ \r\n\ @return\ La\ cantidad\ de\ ingredientes\ de\ la\ receta.\r\n
+comment4.params=
+comment4.target=java.util.Set\ getIngredientes()
+comment4.text=\r\n\ Devuelve\ los\ ingredientes\ de\ la\ receta.\r\n\ \r\n\ @return\ Los\ ingredientes\ de\ la\ receta\ como\ conjunto.\r\n
+comment5.params=
+comment5.target=java.lang.Boolean\ cerrarReceta()
+comment5.text=\r\n\ Cambia\ el\ estado\ de\ la\ receta\ cuando\ tenga\ al\ menos\ dos\ (2)\ ingredientes.\r\n\ En\ caso\ contrario,\ no\ hace\ nada.\r\n\ \r\n\ No\ puede\ revertirse.\r\n\ \r\n\ @return\ true\ si\ se\ pudo\ cerrar\ la\ receta,\ false\ en\ caso\ contrario\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Genera\ una\ cadena\ con\ la\ informacion\ sobre\ la\ receta.\r\n\ \r\n\ Debe\ generarse\ usando\ el\ nombre,\ "incompleta"\ o\ "completa"\ segun\r\n\ el\ estado\ ("ok")\ y\ listar\ los\ ingredientes\ que\ la\ conforman\ con\ el\r\n\ formato\r\n\ \ \ \ \ "Receta\ <nombre>\ (<estado>)\\nIngredientes\:\\n<ingr1>\\n<ingr2>\\n..."\r\n\ \r\n\ Ejemplo\ receta\ incompleta\:\r\n\ \ \ \ "Receta\ voladora\ (incompleta)\r\n\ \ \ \ \ Ingredientes\:\r\n\ \ \ \ \ Pluma"\r\n\ \r\n\ Ejemplo\ receta\ completa\:\r\n\ \ \ \ "Receta\ voladora\ (completa)\r\n\ \ \ \ \ Ingredientes\:\r\n\ \ \ \ \ Hueso\r\n\ \ \ \ \ Pluma\r\n\ \ \ \ \ Sangre"\r\n\ \r\n\ @return\ El\ texto\ indicado\ en\ el\ ejemplo.\r\n
+comment7.params=
+comment7.target=java.lang.Boolean\ isCerrada()
+comment7.text=\r\n\ Verifica\ si\ la\ receta\ se\ puede\ usar.\r\n\ \r\n\ @return\ true\ si\ puede\ usarse\ y\ false\ si\ no\ esta\ cargada\ completamente.\r\n
+comment8.params=
+comment8.target=java.lang.String\ getNombre()
+numComments=9
